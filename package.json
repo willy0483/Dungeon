@@ -1,0 +1,30 @@
+{
+  "name": "dungeon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "packageManager": "npm@11.3.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willy0483/Dungeon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/willy0483/Dungeon/issues"
+  },
+  "homepage": "https://github.com/willy0483/Dungeon#readme",
+  "devDependencies": {
+    "turbo": "^2.5.3"
+  }
+}
